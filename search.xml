@@ -77,21 +77,21 @@
 <p>3.因为 A - B &#x3D; C，即</p>
 <p>X * GCD(A, B) - Y * GCD(A, B) &#x3D; C</p>
 <p>(X - Y) * GCD(A, B) &#x3D; C</p>
-<p>使用图片表示即：<br><img src="https://img-blog.csdn.net/20180506172836174"></p>
+<p>使用图片表示即：<br><img src="/images/oujilide1.png"></p>
 <p>所以有结论：</p>
 <h5 id="GCD-A-B-不仅是-A-和-B-的最大公约数，同时也是-C-的约数。"><a href="#GCD-A-B-不仅是-A-和-B-的最大公约数，同时也是-C-的约数。" class="headerlink" title="GCD(A, B) 不仅是 A 和 B 的最大公约数，同时也是 C 的约数。"></a>GCD(A, B) 不仅是 A 和 B 的最大公约数，同时也是 C 的约数。</h5><h3 id="第二步：证明-GCD-B-C-能够整除-A"><a href="#第二步：证明-GCD-B-C-能够整除-A" class="headerlink" title="第二步：证明 GCD(B, C) 能够整除 A"></a>第二步：证明 GCD(B, C) 能够整除 A</h3><p>1.因为 GCD(B, C) 是 B 的公约数，存在整数 M，使得 M * GCD(B, C) &#x3D; B；</p>
 <p>2.因为 GCD(B, C) 是 C 的公约数，存在整数 N，使得 N * GCD(B, C) &#x3D; C；</p>
 <p>3.因为 B + C &#x3D; A，即</p>
 <p>M * GCD(B, C) + N * GCD(B, C) &#x3D; A</p>
 <p>(M + N) * GCD(B, C) &#x3D; A</p>
-<p>使用图片表示即：<br><img src="https://img-blog.csdn.net/20180506172851787"></p>
+<p>使用图片表示即：<br><img src="/images/oujilide2.png"></p>
 <p>所以有结论：</p>
 <h5 id="GCD-B-C-不仅是-B-和-C-的最大公约数，同时也是-A-的约数。"><a href="#GCD-B-C-不仅是-B-和-C-的最大公约数，同时也是-A-的约数。" class="headerlink" title="GCD(B, C) 不仅是 B 和 C 的最大公约数，同时也是 A 的约数。"></a>GCD(B, C) 不仅是 B 和 C 的最大公约数，同时也是 A 的约数。</h5><h3 id="第三步：证明-GCD-A-B-x3D-GCD-B-C"><a href="#第三步：证明-GCD-A-B-x3D-GCD-B-C" class="headerlink" title="第三步：证明 GCD(A, B) &#x3D; GCD(B, C)"></a>第三步：证明 GCD(A, B) &#x3D; GCD(B, C)</h3><p>1.因为 GCD(A, B) 是 A 和 B 的最大公约数，同时也是 C 的约数，所以 GCD(A, B) 一定也是 B 和 C 的约数。由于 GCD(B, C) 是 B 和 C 的最大公约数，所以存在</p>
 <p>GCD(A, B) &lt;&#x3D; GCD(B, C)</p>
 <p>2.因为 GCD(B, C) 是 B 和 C 的最大公约数，同时也是 A 的约数，所以 GCD(B, C) 一定也是 A 和 B 的约数。由于 GCD(A, B) 是 A 和 B 的最大公约数，所以存在</p>
 <p>GCD(B, C) &lt;&#x3D; GCD(A, B)</p>
 <p>3.由上可得 GCD(A, B) &#x3D; GCD(B, C)</p>
-<p>使用图片表示即：<br><img src="https://img-blog.csdn.net/20180506172915683"></p>
+<p>使用图片表示即：<br><img src="/images/oujilide3.png"></p>
 <h3 id="第四步：证明-GCD-A-B-x3D-GCD-B-R"><a href="#第四步：证明-GCD-A-B-x3D-GCD-B-R" class="headerlink" title="第四步：证明 GCD(A, B) &#x3D; GCD(B, R)"></a>第四步：证明 GCD(A, B) &#x3D; GCD(B, R)</h3><p>1.因为 GCD(A, B) &#x3D; GCD(B, C)，即 GCD(A, B) &#x3D; GCD(B, A - B)</p>
 <p>2.上式也可记为 GCD(A, B) &#x3D; GCD(A - B, B)</p>
 <p>3.重复上一步，即有</p>
