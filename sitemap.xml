@@ -56,6 +56,15 @@
   </url>
   
   <url>
+    <loc>https://lgong.site/2023/06/09/%E9%9B%B6%E6%88%90%E6%9C%AC%EF%BC%81%E6%97%A0%E9%9C%80%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B9%9F%E8%83%BD%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99%EF%BC%8C%E6%94%AF%E6%8C%81CICD/</loc>
+    
+    <lastmod>2023-06-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://lgong.site/about/index.html</loc>
     
     <lastmod>2023-06-09</lastmod>
@@ -140,6 +149,20 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>https://lgong.site/tags/Github/</loc>
+    <lastmod>2023-06-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://lgong.site/tags/Hexo/</loc>
+    <lastmod>2023-06-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
   
   <url>
@@ -158,6 +181,13 @@
   
   <url>
     <loc>https://lgong.site/categories/%E7%AE%97%E6%B3%95/</loc>
+    <lastmod>2023-06-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://lgong.site/categories/Github/</loc>
     <lastmod>2023-06-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
