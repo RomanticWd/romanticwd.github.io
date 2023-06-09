@@ -310,7 +310,7 @@
 <li>gh-pages是私钥</li>
 </ul>
 <h6 id="2-源码分支配置"><a href="#2-源码分支配置" class="headerlink" title="2. 源码分支配置"></a>2. 源码分支配置</h6><p><strong>Deploy keys</strong></p>
-<p><img src="/images/github/github/wII8gjCI-h3RsUdTcFbcTtfV2RhVjj2ayunODcNnYwE.png" alt="image"></p>
+<p><img src="/images/github/wII8gjCI-h3RsUdTcFbcTtfV2RhVjj2ayunODcNnYwE.png" alt="image"></p>
 <ul>
 <li>Deploy keys name写为<code>ACTIONS_DEPLOY_KEY</code> ，value为公钥<code>gh-pages.pub</code> 的内容。</li>
 <li>Deploy keys设置 <code>Allow write access</code></li>
